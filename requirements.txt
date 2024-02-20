@@ -1,0 +1,10 @@
+streamlit
+yfinance
+prophet
+plotly
+alpaca-py
+alpaca_trade_api
+pandas
+statsmodels
+customtkinter
+urllib3
