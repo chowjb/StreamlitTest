@@ -9,3 +9,6 @@ statsmodels
 customtkinter
 urllib3
 trader
+dis
+logging
+re
