@@ -8,3 +8,4 @@ pandas
 statsmodels
 customtkinter
 urllib3
+trader
