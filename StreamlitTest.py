@@ -12,7 +12,7 @@ from Trader import Trader
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
-st.title('Stock Forecast App')
+st.title('JCKLML Stock Trading App')
 
 stocks = ('IBM', 'COST', 'GOOG', 'AAPL', 'MSFT', 'GME')
 selected_stock = st.selectbox('Select dataset for prediction', stocks)
@@ -70,6 +70,9 @@ st.text('Paper Trading on Alpaca:')
 symbol = selected_stock
 qty = 1
 trader = Trader()
+
+strategies = ('Simple', '3UpDays')
+selected_strategy = st.selectbox('Select strategy', strategies)
 
 trader_activated = st.toggle(f'Activate Trader for {symbol}')
 
